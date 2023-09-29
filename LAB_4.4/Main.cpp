@@ -29,7 +29,7 @@ int main() {
 					y = R;
 				else
 					if (-4 < x && x <= 2)
-						y = (((-1 - R) * (x + 4)) / 6) + R;
+						y = R -((1 + R)/ 6)*(x+4);
 					else
 						y = x - 3;
 
